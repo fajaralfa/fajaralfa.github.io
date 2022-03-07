@@ -3,6 +3,8 @@ body{
 .header{
   background: blue;
   padding: 10px;
+  border: white 5px;
+  border-radius: 5px;
 }
 .main{
   background: white;
@@ -12,5 +14,8 @@ body{
 }
 a{
   text-decoration: none;
-  color: #44F;
+  color: #F33;
+}
+a:hover{
+  opacity: 0.8;
 }
