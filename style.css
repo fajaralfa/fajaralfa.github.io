@@ -1,10 +1,14 @@
 body{
+  margin: 0;
 }
-.header{
+#header{
   background: blue;
-  padding: 10px;
-  border: white 5px;
-  border-radius: 5px;
+  padding: 5px;
+}
+.navTop{
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 .main{
   background: white;
