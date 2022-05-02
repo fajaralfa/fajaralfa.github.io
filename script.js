@@ -1,4 +1,4 @@
-let navbar = document.getElementById('header')
+let navbar = document.querySelector('#header')
 let navTop = navbar.offsetTop
 
 let sticky = function(){
@@ -9,4 +9,6 @@ let sticky = function(){
   }
 }
 
-window.onscroll = function(){sticky()}
+window.onscroll = sticky()
+
+
