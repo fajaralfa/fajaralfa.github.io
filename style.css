@@ -3,12 +3,17 @@ body{
 }
 #header{
   background: blue;
-  padding: 5px;
+  padding: 3px;
   display: block;
+}
+#hlink{
+  text-decoration: none;
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: larger;
 }
 .navTop{
   position: fixed;
-  top: 0;
   width: 100%;
 }
 .main{
@@ -18,11 +23,15 @@ body{
   background: white;
 }
 .footer{
-  
+  display: flex;
+  justify-content: center;
 }
 a{
   color: blue;
 }
 a:hover{
   opacity: 0.8;
+}
+#canvas1{
+    border: 1px solid black;
 }

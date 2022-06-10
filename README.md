@@ -1,1 +1,1 @@
-# githubweb
+* sebuah website statis
