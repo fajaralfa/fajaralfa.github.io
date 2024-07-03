@@ -12,7 +12,7 @@
     "css:build": "tailwindcss -i themes/paper/source/css/_input.css -o themes/paper/source/css/style.css -c themes/paper/tailwind.config.js"
   },
   "hexo": {
-    "version": "7.2.0"
+    "version": "7.3.0"
   },
   "dependencies": {
     "hexo": "^7.0.0",
