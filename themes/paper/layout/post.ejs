@@ -1,8 +1,11 @@
 <header>
     <h1 class="text-3xl font-bold"><%= page.title %></h1>
 </header>
-<div class="text-sm opacity-75">
-<%- page.date.format(config.date_format) %>
+<div class="text-sm opacity-75 space-x-5">
+    <span><%- page.date.format(config.date_format) %></span>
+<% if (page.date.format(config.date_format) != page.updated.format(config.date_format)) { // keep it simple %>
+    <span>updated: <%- page.updated.format(config.date_format) %></span>
+<% } %>
 </div>
 <article class="pt-2"><%- page.content %></article>
 
