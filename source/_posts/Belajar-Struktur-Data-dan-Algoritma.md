@@ -1,7 +1,9 @@
 ---
 title: Belajar Struktur Data dan Algoritma
+date: 2024-07-03 23:24:44
 tags:
 ---
+
 
 Halo semuanya,
 kali ini kita akan belajar struktur data dan algoritma.
