@@ -1,0 +1,16 @@
+<ul>
+<% page.posts.each(function (item) { %>
+<li id="<%= item.layout %>-<%= item.slug %>">
+    <a href="<%= url_for(item.path) %>" class="font-lr"><%= item.date.format(config.date_format) %> <%= item.title %></a></h1>
+</li>
+<% }) %>
+</ul>
+
+<nav>
+    <% if (page.prev){ %>
+        <a href="<%- url_for(page.prev_link) %>"><%= __('prev') %></a>
+    <% } %>
+    <% if (page.next){ %>
+        <a href="<%- url_for(page.next_link) %>"><%= __('next') %></a>
+    <% } %>
+</nav>

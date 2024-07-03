@@ -1,0 +1,172 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+img {
+    @apply border shadow-md my-2;
+}
+
+a {
+    @apply text-blue-600 hover:text-blue-400 hover:underline transition;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    @apply font-bold py-2;
+}
+
+h1 {
+    @apply text-3xl;
+}
+
+h2 {
+    @apply text-2xl;
+}
+
+h3 {
+    @apply text-xl;
+}
+
+h4 {
+    @apply text-lg;
+}
+
+h5 {
+    @apply text-base;
+}
+
+h6 {
+    @apply text-sm;
+}
+
+ol {
+    @apply list-decimal;
+}
+
+ul {
+    @apply list-disc;
+}
+
+li {
+    @apply ml-5;
+}
+
+table {
+    @apply table-auto;
+}
+
+table thead {
+    @apply bg-slate-200 rounded-t;
+}
+
+table tbody {
+    @apply divide-y border-b;
+}
+
+th, td {
+    @apply px-1;
+}
+
+blockquote {
+    @apply bg-slate-800 text-slate-200 px-2 py-1 rounded italic;
+}
+
+.pullquote.left {
+    @apply md:float-left md:mt-5 md:mx-5;
+}
+
+.pullquote.right {
+    @apply md:float-right md:mt-5 md:mx-5;
+}
+
+blockquote footer {
+    @apply space-x-2;
+}
+
+p {
+    @apply my-2;
+}
+
+dl {
+    @apply bg-slate-200 overflow-x-scroll;
+}
+
+/* syntax hightlighting */
+
+mark {
+    @apply bg-blue-600 bg-opacity-25 text-white;
+}
+
+.gutter {
+    @apply w-8 pl-1 inline-block;
+}
+
+.highlight {
+    @apply bg-slate-800 text-white my-5 overflow-x-scroll;
+}
+
+.hljs-tag,
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-literal,
+.hljs-strong,
+.hljs-number,
+.hljs-name {
+    @apply text-blue-400;
+}
+
+.hljs-code {
+    @apply text-blue-400;
+}
+
+.hljs-attribute,
+.hljs-attr,
+.hljs-symbol,
+.hljs-regexp,
+.hljs-link {
+    @apply text-yellow-400;
+}
+
+.hljs-string,
+.hljs-bullet,
+.hljs-subst,
+.hljs-title,
+.hljs-section,
+.hljs-emphasis,
+.hljs-type,
+.hljs-built_in,
+.hljs-selector-attr,
+.hljs-selector-pseudo,
+.hljs-addition,
+.hljs-variable,
+.hljs-template-tag,
+.hljs-template-variable {
+    @apply text-green-400;
+}
+
+.hljs-title.class_,
+.hljs-class .hljs-title {
+    @apply text-blue-400;
+}
+
+.hljs-comment,
+.hljs-quote,
+.hljs-deletion,
+.hljs-meta {
+    @apply text-green-700;
+}
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-literal,
+.hljs-doctag,
+.hljs-title,
+.hljs-section,
+.hljs-type,
+.hljs-selector-id {
+    @apply text-blue-400;
+}
