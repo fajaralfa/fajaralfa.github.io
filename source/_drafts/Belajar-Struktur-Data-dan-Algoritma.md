@@ -1,5 +1,5 @@
 ---
-title: Belajar dan Algoritma Struktur Data 
+title: Belajar Struktur Data dan Algoritma
 tags:
 ---
 
