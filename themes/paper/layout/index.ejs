@@ -1,5 +1,5 @@
 <% page.posts.each(function (item) { %>
-<section id="<%= item.layout %>-<%= item.slug %>" class="mb-5 shadow-md px-4 pt-2">
+<section id="<%= item.layout %>-<%= item.slug %>" class="mb-5 shadow-md px-4 pt-2 border-2">
     <div id="section-header">
         <div class="text-sm"><%= item.date.format(config.date_format) %></div>
         <a href="<%= item.path %>" class="font-bold text-blue-600 text-lg"><%= item.title %></a>
