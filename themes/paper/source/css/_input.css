@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+    @apply leading-7;
+}
+
 img {
     @apply border shadow-md my-2;
 }
@@ -88,7 +92,7 @@ blockquote footer {
 }
 
 p {
-    @apply my-2;
+    @apply my-3;
 }
 
 dl {
@@ -169,4 +173,12 @@ mark {
 .hljs-type,
 .hljs-selector-id {
     @apply text-blue-400;
+}
+
+.highlight figcaption {
+    @apply flex justify-between mb-1 px-3 py-1;
+}
+
+.highlight figcaption span {
+    @apply opacity-60;
 }
