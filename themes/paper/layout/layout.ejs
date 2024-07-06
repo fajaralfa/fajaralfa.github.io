@@ -6,6 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><%- page.title ?? config.title %></title>
     <%- css('css/style.css') %>
+    <script>
+        const htmlClassList = document.querySelector('html').classList
+        if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+            htmlClassList.add('dark')
+        } else {
+            htmlClassList.remove('dark')
+        }
+    </script>
 </head>
 
 <body class="bg-white dark:bg-gray-900 dark:text-slate-200">
@@ -35,8 +43,13 @@
         const themeSwitcher = document.getElementById('theme-switcher')
         themeSwitcher.addEventListener('click', () => {
             const htmlClassList = document.querySelector('html').classList
-            if (htmlClassList.contains('dark')) htmlClassList.remove('dark')
-            else htmlClassList.add('dark')
+            if (localStorage.theme === 'dark') {
+                localStorage.removeItem('theme')
+                htmlClassList.remove('dark')
+            } else {
+                localStorage.theme = 'dark'
+                htmlClassList.add('dark')
+            }
         })
     </script>
 </body>
