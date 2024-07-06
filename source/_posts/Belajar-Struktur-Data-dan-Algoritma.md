@@ -32,10 +32,6 @@ _Catatan Lagi: Artikel ini kemungkinan akan sering direvisi agar semakin mudah d
 Algoritma adalah langkah - langkah yang dibuat secara tersusun dan bertujuan untuk memecahkan suatu masalah atau melakukan sesuatu.  Kita menggunakan algoritma dalam setiap aktivitas kita. Memasak, merakit PC, membakar ikan, semuanya menggunakan algoritma.
 
 Dalam program komputer juga tidak berbeda, algoritma digunakan untuk memecahkan suatu masalah seperti untuk:
-{%pullquote right%}
-Kenapa insertion bukan inserting?
-saya tidak tahu :)
-{%endpullquote%}
 
 - menyimpan (insertion)
 - mengurutkan (sorting)
@@ -43,6 +39,11 @@ saya tidak tahu :)
 - menghapus (deletion)
 - mengubah (updating)
 - dan lain - lain.
+
+{% pullquote %}
+Kenapa insertion bukan inserting?
+saya tidak tahu :)
+{%endpullquote%}
 
 ### Big O Notation
 
