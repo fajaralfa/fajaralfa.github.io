@@ -28,10 +28,12 @@
         </footer>
     </div>
 
-    <button class="bg-blue-600 text-blue-100 fixed right-0 top-0 px-2 py-1 rounded" id="theme-toggler">Toggle Theme</button>
+    <button class="fixed right-0 bottom-0 px-2" id="theme-switcher">
+        <img src="/icon/theme-switcher.svg" alt="" srcset="" class="w-10 border-none">
+    </button>
     <script>
-        const themeToggler = document.getElementById('theme-toggler')
-        themeToggler.addEventListener('click', () => {
+        const themeSwitcher = document.getElementById('theme-switcher')
+        themeSwitcher.addEventListener('click', () => {
             const htmlClassList = document.querySelector('html').classList
             if (htmlClassList.contains('dark')) htmlClassList.remove('dark')
             else htmlClassList.add('dark')
