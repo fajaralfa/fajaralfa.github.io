@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html class="dark">
 
 <head>
     <meta charset="utf-8">
@@ -8,7 +8,7 @@
     <%- css('css/style.css') %>
 </head>
 
-<body class="text-gray-700">
+<body class="bg-white dark:bg-gray-900 dark:text-slate-200">
     <div class="max-w-[50rem] mx-auto mt-5 px-3">
         <nav class="px-4 flex justify-between gap-x-5 text-xl mb-5">
             <span>
@@ -27,6 +27,16 @@
             fajaralfa
         </footer>
     </div>
+
+    <button class="bg-blue-600 text-blue-100 fixed right-0 top-0 px-2 py-1 rounded" id="theme-toggler">Toggle Theme</button>
+    <script>
+        const themeToggler = document.getElementById('theme-toggler')
+        themeToggler.addEventListener('click', () => {
+            const htmlClassList = document.querySelector('html').classList
+            if (htmlClassList.contains('dark')) htmlClassList.remove('dark')
+            else htmlClassList.add('dark')
+        })
+    </script>
 </body>
 
 </html>

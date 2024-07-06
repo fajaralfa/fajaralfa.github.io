@@ -11,7 +11,7 @@ img {
 }
 
 a {
-    @apply text-blue-600 hover:text-blue-400 hover:underline transition;
+    @apply text-blue-600 dark:text-blue-400 hover:text-blue-400 dark:hover:text-blue-200 hover:underline transition;
 }
 
 h1,
@@ -64,7 +64,7 @@ table {
 }
 
 table thead {
-    @apply bg-slate-200 rounded-t;
+    @apply bg-slate-200 dark:bg-slate-700 rounded-t;
 }
 
 table tbody {
@@ -76,7 +76,7 @@ th, td {
 }
 
 .pullquote {
-    @apply border-l-2 bg-slate-300 border-slate-600 px-3 py-1 italic;
+    @apply border-l-2 bg-slate-300 dark:bg-slate-700 border-slate-700 dark:border-slate-300 px-3 py-1 italic;
 }
 
 .pullquote.left {
@@ -96,7 +96,7 @@ p {
 }
 
 dl {
-    @apply bg-slate-200 overflow-x-scroll;
+    @apply bg-slate-200 dark:bg-slate-700 overflow-x-scroll;
 }
 
 /* syntax hightlighting */
@@ -110,7 +110,7 @@ mark {
 }
 
 .highlight {
-    @apply bg-slate-800 text-white my-5 overflow-x-scroll;
+    @apply bg-slate-700 text-white my-5 overflow-x-scroll;
 }
 
 .hljs-tag,
@@ -161,7 +161,7 @@ mark {
 .hljs-quote,
 .hljs-deletion,
 .hljs-meta {
-    @apply text-green-700;
+    @apply text-green-600;
 }
 
 .hljs-keyword,

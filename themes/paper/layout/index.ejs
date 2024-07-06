@@ -1,12 +1,12 @@
 <% page.posts.each(function (item) { %>
-<section id="<%= item.layout %>-<%= item.slug %>" class="mb-5 shadow-md px-4 pt-2 border-2">
+<section id="<%= item.layout %>-<%= item.slug %>" class="mb-5 hover:shadow-md hover:dark:shadow-slate-300 transition-shadow px-4 pt-2 border dark:border-slate-500">
     <div id="section-header">
         <div class="text-sm"><%= item.date.format(config.date_format) %></div>
-        <a href="<%= item.path %>" class="font-bold text-blue-600 text-lg"><%= item.title %></a>
+        <a href="<%= item.path %>" class="font-bold text-lg"><%= item.title %></a>
     </div>
     <div id="section-excerpt"
         <% if (!item.excerpt) { %> 
-            class="bg-gradient-to-b from-black to-transparent bg-clip-text text-transparent"
+            class="bg-gradient-to-b from-black dark:from-white to-transparent bg-clip-text text-transparent"
         <% } %>>
         <%if (item.excerpt) { %>
             <%- item.excerpt %>
