@@ -75,7 +75,7 @@ th, td {
     @apply px-1;
 }
 
-blockquote {
+.pullquote {
     @apply border-l-2 bg-slate-300 border-slate-600 px-3 py-1 italic;
 }
 
