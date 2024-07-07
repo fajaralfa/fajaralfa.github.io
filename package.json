@@ -3,13 +3,10 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "build": "npm run css:build && hexo generate",
+    "build": "npm run hexo generate",
     "clean": "hexo clean",
     "deploy": "hexo deploy",
-    "server": "hexo server",
-    "css": "bunx tailwindcss -i themes/paper/source/css/_input.css -o themes/paper/source/css/style.css -c themes/paper/tailwind.config.js --watch",
-    "css:watch": "bunx tailwindcss -i themes/paper/source/css/_input.css -o themes/paper/source/css/style.css -c themes/paper/tailwind.config.js --watch",
-    "css:build": "tailwindcss -i themes/paper/source/css/_input.css -o themes/paper/source/css/style.css -c themes/paper/tailwind.config.js"
+    "server": "hexo server"
   },
   "hexo": {
     "version": "7.3.0"
