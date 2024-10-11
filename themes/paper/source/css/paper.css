@@ -182,3 +182,11 @@ mark {
 .highlight figcaption span {
     @apply opacity-60;
 }
+
+#theme-switcher {
+    @apply fixed right-0 bottom-0 px-2;
+}
+
+#theme-switcher img {
+    @apply w-10 border-none;
+}
