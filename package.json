@@ -7,12 +7,31 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "test": "nuxt test",
+    "test:watch": "nuxt test --watch"
   },
   "dependencies": {
     "@nuxt/content": "^3.2.2",
+    "@nuxt/icon": "^1.10.3",
+    "@nuxtjs/color-mode": "^3.5.2",
+    "@nuxtjs/tailwindcss": "^6.13.1",
+    "fuse.js": "^7.1.0",
     "nuxt": "^3.15.4",
+    "tailwindcss": "^3.4.17",
+    "turndown": "^7.2.0",
     "vue": "latest",
     "vue-router": "latest"
+  },
+  "devDependencies": {
+    "@nuxt/test-utils": "^3.17.1",
+    "@tailwindcss/typography": "^0.5.16",
+    "@vue/test-utils": "^2.4.6",
+    "happy-dom": "^17.3.0",
+    "playwright-core": "^1.51.0",
+    "serve": "^14.2.4",
+    "tsx": "^4.19.3",
+    "citty": "^0.1.6",
+    "vitest": "^3.0.8"
   }
 }
