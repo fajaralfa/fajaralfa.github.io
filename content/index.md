@@ -1,33 +1,19 @@
-# My First Page
+---
+title: 
+description: 
+date: 
+---
 
-Here is some content.
+Hi, i'm Fajar.
 
-```py
-import numpy as np
-X = np.array([1,2,3,4])
-X = X.reshape((2,2))
-print(X)
-```
+I am a student who just graduated from vocational high school, majoring software engineering. I learn a lot back then, and still.  
+I love programming, robotic and computer in general because it's a cool and useful things.  
+I have created several application that not very useful but really help me to learn, and people can see it on my github.  
+I also have a blog and youtube channel that talk about tutorial, technology, and some random thing.  
 
-```c++
-#include <iostream>
-int main(void)
-{
-    std::cout << "Welcome" << std::endl;
-}
-```
-
-```js
-const x = (i) => i * 2;
-console.log(x(4));
-```
-
-```vue
-<script setup lang="ts">
-const count = ref(1)
-setInterval(() => count.value += 1, 1000)
-</script>
-<template>
-    <h1>{{ count }}</h1>
-</template>
-```
+* [Blog Posts](/posts)
+* [Youtube](https://www.youtube.com/@fajaralfaid)
+* [Github](https://github.com/fajaralfa)
+* [Curriculum Vitae](Fajar%20Ilham%20Alfarizi-CV.docx)
+* [Resume](/resume)
+* [Email](mailto:fajaralfrzi@gmail.com)
