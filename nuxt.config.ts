@@ -1,8 +1,26 @@
+import { defineNuxtConfig } from "nuxt/config";
+
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   compatibilityDate: '2024-11-01',
   devtools: { enabled: true },
-  modules: ['@nuxt/content'],
+  runtimeConfig: {
+    public: {
+      author: 'Fajaralfa',
+    }
+  },
+  nitro: {
+    prerender: {
+      autoSubfolderIndex: false,
+    },
+  },
+  modules: [
+    '@nuxt/content',
+    '@nuxtjs/tailwindcss',
+    '@nuxtjs/color-mode',
+    '@nuxt/icon',
+    '@nuxt/test-utils/module'
+  ],
   mdc: {
     highlight: {
       theme: {
@@ -10,7 +28,7 @@ export default defineNuxtConfig({
         default: 'github-dark',
         light: 'github-light',
       },
-      langs: ['py', 'cpp'],
+      langs: ['py', 'cpp', 'js'],
     },
   },
 })
