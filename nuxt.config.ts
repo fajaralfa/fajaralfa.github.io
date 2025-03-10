@@ -9,11 +9,6 @@ export default defineNuxtConfig({
       author: 'Fajaralfa',
     }
   },
-  nitro: {
-    prerender: {
-      autoSubfolderIndex: false,
-    },
-  },
   modules: [
     '@nuxt/content',
     '@nuxtjs/tailwindcss',
