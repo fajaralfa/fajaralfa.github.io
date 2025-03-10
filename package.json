@@ -9,7 +9,8 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
     "test": "nuxt test",
-    "test:watch": "nuxt test --watch"
+    "test:watch": "nuxt test --watch",
+    "content:create": "tsx scripts/content:create.ts"
   },
   "dependencies": {
     "@nuxt/content": "^3.2.2",
