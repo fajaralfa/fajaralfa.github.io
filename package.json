@@ -25,14 +25,16 @@
     "vue-router": "latest"
   },
   "devDependencies": {
+    "@iconify-json/devicon": "^1.2.19",
+    "@iconify-json/ri": "^1.2.5",
     "@nuxt/test-utils": "^3.17.1",
     "@tailwindcss/typography": "^0.5.16",
     "@vue/test-utils": "^2.4.6",
+    "citty": "^0.1.6",
     "happy-dom": "^17.3.0",
     "playwright-core": "^1.51.0",
     "serve": "^14.2.4",
     "tsx": "^4.19.3",
-    "citty": "^0.1.6",
     "vitest": "^3.0.8"
   }
 }
