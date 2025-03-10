@@ -26,4 +26,11 @@ export default defineNuxtConfig({
       langs: ['py', 'cpp', 'js'],
     },
   },
+  icon: {
+    clientBundle: {
+      scan: true,
+      includeCustomCollections: true,
+      sizeLimitKb: 256,
+    },
+  },
 })
