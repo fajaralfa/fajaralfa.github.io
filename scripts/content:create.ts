@@ -1,7 +1,9 @@
 import fs from 'node:fs/promises'
 import consola from 'consola'
 
-async function generate(args: { title: string, category: string, description: string }) {
+type ContentArgs = { title: string, category: string, description: string }
+
+async function generate(args: ContentArgs) {
     const filename = args.title.trim().replace(' ', '_') + '.md'
     const date = new Date().toLocaleDateString('en-CA')
     let path = 'content/'
@@ -14,10 +16,11 @@ async function generate(args: { title: string, category: string, description: st
     stream.write(`description: ${args.description}\n`)
     stream.write(`date: ${date}\n`)
     stream.write('---\n')
-    consola.box(`Content created: "${filepath}"`)
+    return filepath
 }
 
 async function main() {
+    consola.start('Create a Content')
     try {
         const category = await consola.prompt(
             'Category',
@@ -39,9 +42,9 @@ async function main() {
             {
                 type: 'text',
                 cancel: 'reject',
-                default: '',
             })
-        generate({ category, title, description })
+        const result = await generate({ category, title, description })
+        consola.success(`Content created: "${result}"`)
     } catch (err) {
         consola.warn('Canceled.')
     }
