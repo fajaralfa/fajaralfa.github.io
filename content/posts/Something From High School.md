@@ -12,6 +12,6 @@ The annoying thing is that the cringe thing is almost always haunting my head ev
 
 This still the case today and it always ruined my day, i don't know how to get rid of this cringe and i just try to get used to it.
 
-Fortunately, the memory that hit my head is not just cringe thing, but also a good and sweet memory. Like when i hang out with my friends and have a lot of fun, when my friends talking about crazy stuff, when the conversation between me and someone so seamless, when she is there and the atmosfer is changing and my ear feels hot, when i help someone or someone help me. And it's make me feel that i'm not too bad as a person.
+Fortunately, the memory that hit my head is not just cringe thing, but also a good and sweet memory. Like when i hang out with my friends and have a lot of fun, when my friends talking about crazy stuff, when the conversation between me and someone so seamless, when she is there and the atmosfer is changing and my ear feels hot, when i help someone or someone help me. And it's make me feel again that i'm not too bad as a person.
 
 Thank you for all people and all other species on the school who have contributed directly or indirectly to my life, thank you for the memories and thank you for being there.
