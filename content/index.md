@@ -14,6 +14,6 @@ I also have a blog and youtube channel that talk about tutorial, technology, and
 * [Blog Posts](/posts)
 * [Youtube](https://www.youtube.com/@fajaralfaid)
 * [Github](https://github.com/fajaralfa)
-* [Curriculum Vitae](Fajar%20Ilham%20Alfarizi-CV.docx)
+* <a href="/Fajar%20Ilham%20Alfarizi-CV.docx" external>Curriculum Vitae</a>
 * [Resume](/resume)
 * [Email](mailto:fajaralfrzi@gmail.com)
