@@ -58,12 +58,15 @@ PORTFOLIO
 
 * * *
 
-### [Data Management System](https://github.com/fajaralfa/manajemen-data-bbppmpv-bmti)
+### Data Management System
+
+[Source](https://github.com/fajaralfa/manajemen-data-bbppmpv-bmti)
 
 *   Software to manage trainees, internship, and inventory
 *   Built using PHP Laravel, SvelteJS, and MariaDB
 
-### [AskMe](https://github.com/fajaralfa/askme)
+### AskMe
+[Source](https://github.com/fajaralfa/askme)
 
 *   Software to ask question to a user anonymously, an NGL clone
 *   Built using Go Gorilla Mux, VueJS and MariaDB
