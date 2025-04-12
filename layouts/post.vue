@@ -12,7 +12,7 @@
     </div>
   </Header>
   <main class="mb-52">
-    <div class="jarprose lg:w-[50rem] max-w-none m-auto">
+    <div class="jarprose m-auto">
       <slot />
     </div>
   </main>
