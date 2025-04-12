@@ -6,7 +6,7 @@ description:
 ::Print
 Print
 ::
-<img src="img/me.jpg" class="w-[8rem] rounded-full"></img>
+<img src="img/me.jpg" class="w-[8rem] float-right"></img>
 
 FAJAR ILHAM ALFARIZI
 ====================
