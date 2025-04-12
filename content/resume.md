@@ -3,9 +3,10 @@ title: Resume
 description:
 ---
 
-  Fajar Ilham Alfarizi     
-
-![Profile Picture](img/me.jpg)
+::Print
+Print
+::
+<img src="img/me.jpg" class="w-[8rem] rounded-full"></img>
 
 FAJAR ILHAM ALFARIZI
 ====================
