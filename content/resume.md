@@ -26,7 +26,7 @@ Junior Software Engineer (September 2024 - Present)
 *   Create several java OSGi plugins for Joget DX, a Spring Boot based framework
 *   Develop UI using HTML, Bootstrap, and JQuery
 
-### BBPPMPV BMTI - Bandung, West Java, Indonesia
+### BBPPMPV BMTI - Cimahi, West Java, Indonesia
 
 Software Developer Intern (September 2023 - November 2023)
 
