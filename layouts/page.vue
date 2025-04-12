@@ -8,14 +8,8 @@
     </div>
   </Header>
   <main :class="{'mb-52': $route.path !== '/'}">
-    <div class="lg:flex lg:flex-col lg:items-center">
-      <div class="lg:w-[45rem]">
-        <div class="jarprose lg:w-[45rem]">
-          <div class="lg:w-[45rem]">
-            <slot />
-          </div>
-        </div>
-      </div>
+    <div class="jarprose lg:w-[50rem] max-w-none m-auto">
+      <slot />
     </div>
   </main>
   <footer>
