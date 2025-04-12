@@ -31,7 +31,7 @@ Junior Software Engineer (September 2024 - Present)
 Software Developer Intern (September 2023 - November 2023)
 
 *   Determine the framework and library used for application development
-*   Analyzing client needs
+*   Analyze client needs
 *   Work together in a team of three
 *   Create and develop a software
 
