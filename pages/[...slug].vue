@@ -23,5 +23,5 @@ definePageMeta({
 </script>
 
 <template>
-  <ContentRenderer v-if="page" :value="page" />
+  <ContentRenderer v-if="page" :value="page" class="jarprose" />
 </template>

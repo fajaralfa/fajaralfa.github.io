@@ -17,8 +17,24 @@
         prose-h2:text-3xl
         prose-h3:text-2xl
         prose-h4:text-xl
-        prose-a:no-underline hover:prose-a:underline
+        prose-a:no-underline
         max-w-none lg:w-[50rem]
         ;
     }
+
+    .jarprose a {
+        @apply no-underline;
+        background:
+            linear-gradient(to right, rgba(0, 0, 0, 0.40)),
+            linear-gradient(to right, black);
+        background-size: 100% 0.1em, 0 0.1em;
+        background-position: 100% 100%, 0 100%;
+        background-repeat: no-repeat;
+        transition: background-size 400ms;
+    }
+
+    .jarprose a:hover, .jarprose a:focus {
+        background-size: 0 0.1em, 100% 0.1em;
+    }
+
 }

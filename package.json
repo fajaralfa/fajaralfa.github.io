@@ -32,7 +32,6 @@
     "@vue/test-utils": "^2.4.6",
     "consola": "^3.4.0",
     "happy-dom": "^17.3.0",
-    "playwright-core": "^1.51.0",
     "serve": "^14.2.4",
     "tsx": "^4.19.3",
     "vitest": "^3.0.8"
