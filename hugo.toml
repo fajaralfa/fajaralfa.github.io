@@ -22,3 +22,6 @@ theme = 'paper'
 [security]
   [security.exec]
     allow = ['^(dart-)?sass$', '^go$', '^git$', '^node$', '^postcss$', '^tailwindcss$']
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
